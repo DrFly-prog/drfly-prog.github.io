@@ -345,20 +345,20 @@
 
     <div class="game-card fade-up" style="transition-delay:0.6s">
       <div class="game-card-thumb">
-        <img src="screen-lab.png" alt="Infinity Labyrinth">
+        <img src="screen-codeb.png" alt="CodeBreaker Infinity">
         <span class="game-card-status status-test">In testing</span>
       </div>
       <div class="game-card-body">
-        <div class="game-card-icon" style="background:none;padding:0;overflow:hidden;"><img src="logo-lab.png" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:10px;"></div>
-        <div class="game-card-name">Infinity Labyrinth</div>
-        <div class="game-card-desc">100 handcrafted maze levels + a fog-of-war battle royale. Navigate. Outlast. Win.</div>
+        <div class="game-card-icon" style="background:none;padding:0;overflow:hidden;"><img src="logo-codeb.png" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:10px;"></div>
+        <div class="game-card-name">CodeBreaker Infinity</div>
+        <div class="game-card-desc">Crack the secret color code. Classic Mastermind, rebuilt for 2025. Free.</div>
         <div class="game-card-tag">
           <span style="width:6px;height:6px;border-radius:50%;background:var(--yellow);display:inline-block"></span>
           Google Play testing phase
         </div>
-        <button class="policy-link" onclick="openModal('laby')">Privacy Policy</button>
+        <button class="policy-link" onclick="openModal('codeInf')">Privacy Policy</button>
       </div>
-      <a href="https://play.google.com/store/apps/details?id=com.drfly.infinitylabyrinth" class="play-badge" target="_blank">
+      <a href="#" class="play-badge" target="_blank">
         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.18 23.76c.3.17.65.19.97.07L14.88 12 3.08.17A1.1 1.1 0 0 0 3 .65v22.7c0 .15.06.29.18.41z" fill="#EA4335"/><path d="M18.97 8.3 15.6 6.4 3.18.17A.98.98 0 0 0 3 .06L14.88 12l4.09-3.7z" fill="#FBBC04"/><path d="M18.97 15.7 14.88 12 3 23.94c.06-.04.12-.1.18-.18l12.42-6.23 3.37-1.83z" fill="#34A853"/><path d="M21 9.27l-2.03-1.06-4.09 3.79 4.09 3.7L21 14.64c.6-.33.97-.96.97-1.67 0-.72-.37-1.36-.97-1.7z" fill="#4285F4"/></svg>
         <div class="play-badge-text"><span>GET IT ON</span><span>Google Play</span></div>
       </a>
@@ -456,6 +456,7 @@
     <button class="footer-btn" onclick="openModal('rush')">Infinity Rush — Privacy</button>
     <button class="footer-btn" onclick="openModal('mathdice')">MathDice Infinity — Privacy</button>
     <button class="footer-btn" onclick="openModal('laby')">Infinity Labyrinth — Privacy</button>
+    <button class="footer-btn" onclick="openModal('codeInf')">CodeBreaker Infinity — Privacy</button>
 <!-- FOOTER-LINKS-END -->
   </div>
 </footer>
@@ -689,6 +690,42 @@
     </div>
   </div>
 </div>
+
+<!-- MODAL: CODEBREAKER INFINITY -->
+<div class="modal-overlay" id="modal-codeInf" onclick="if(event.target===this)closeModal('codeInf')">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal('codeInf')">✕</button>
+    <div class="modal-eyebrow">Privacy Policy</div>
+    <div class="modal-title">CodeBreaker Infinity</div>
+    <div class="modal-date">Last updated: April 20, 2026</div>
+    <div class="modal-body">
+      <h2>Overview</h2>
+<p>Codebreaker Infinity is a code-breaking puzzle game developed by DrFly Studio, an independent developer. We are committed to protecting your privacy. This policy explains what data is collected, how it is used, and your rights regarding that data.</p>
+<h2>Data We Collect</h2>
+<p>The App itself does not collect any personal information. However, we use third-party services that may collect data:</p>
+<ul>
+  <li><strong>Google AdMob</strong> — used to display advertisements. AdMob may collect device identifiers, IP address, and usage data to serve relevant ads.</li>
+  <li><strong>Firebase Analytics</strong> — used to understand how players interact with the app (session length, mission completion, daily code participation). No personally identifiable information is collected.</li>
+  <li><strong>Firebase Firestore</strong> — used to deliver the Daily Code (one shared puzzle per day). Only an anonymous session identifier and your Daily Code result (solved/not solved, number of tries) are stored. No personal data is linked to this identifier.</li>
+  <li><strong>Game progress</strong> — your mission pack progress, badges, and streaks are stored locally on your device only using AsyncStorage. This data never leaves your device.</li>
+</ul>
+<h2>Advertising</h2>
+<p>The App displays ads through Google AdMob, including interstitial ads (shown between games, never while a code is active) and rewarded video ads (shown only when you choose to watch one to reveal a color or gain an extra try). We request non-personalized ads where possible. For more information: <a href="https://policies.google.com/technologies/partner-sites" target="_blank">policies.google.com/technologies/partner-sites</a></p>
+<h2>Data Sharing</h2>
+<p>We do not sell, trade, or share your personal data with third parties, except as required by Google AdMob and Firebase as described above.</p>
+<h2>Children's Privacy</h2>
+<p>The App is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us so we can delete it.</p>
+<h2>Data Retention</h2>
+<p>Local game data (progress, badges, settings) is stored on your device and can be cleared at any time by uninstalling the App. Anonymous Daily Code results stored on Firebase are automatically purged after 90 days. We do not retain any personal data on our own servers.</p>
+<h2>Your Rights</h2>
+<p>Depending on your location, you may have the right to access, delete or opt out of personalized advertising. On Android: Settings → Google → Ads. You may also reset your advertising ID or opt out of interest-based ads directly from your device settings.</p>
+<h2>Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. Continued use of the App after changes constitutes acceptance of the new policy.</p>
+<h2>Contact</h2>
+<p><a href="mailto:drfly.prog@gmail.com">drfly.prog@gmail.com</a></p>
+    </div>
+  </div>
+</div>
 <!-- MODALS-END -->
 
 <script>
@@ -701,7 +738,7 @@
     document.body.style.overflow = '';
   }
   document.addEventListener('keydown', e => {
-    if (e.key === 'Escape') /* MODAL-IDS-START */['tangram','sudoku','ball','rush','mathdice','laby']/* MODAL-IDS-END */.forEach(id => closeModal(id));
+    if (e.key === 'Escape') /* MODAL-IDS-START */['tangram','sudoku','ball','rush','mathdice','laby','codeInf']/* MODAL-IDS-END */.forEach(id => closeModal(id));
   });
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
