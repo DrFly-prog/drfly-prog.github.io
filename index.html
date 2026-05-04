@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DRFLY — Independent Game Studio</title>
+<meta name="description" content="DrFly Game Studio — Infinite puzzles. Built by one. Played by many." />
+<link rel="icon" href="logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,700;0,9..144,900;1,9..144,500&family=JetBrains+Mono:wght@400;500;700&family=Inter+Tight:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="intro-active">
+
+<!-- INTRO -->
+<div id="intro">
+  <div class="intro-stage">
+    <div class="intro-logo">
+      <svg viewBox="0 0 800 800">
+        <polygon class="tri-outer" points="400,80 720,640 80,640" />
+        <polygon class="tri-inner" points="400,200 670,640 130,640" />
+      </svg>
+    </div>
+    <div class="intro-word"><span>D</span><span>R</span><span>F</span><span>L</span><span>Y</span></div>
+    <div class="intro-tag">A Game Studio · Est. ∞</div>
+  </div>
+  <div class="intro-flash"></div>
+</div>
+<button class="skip" onclick="endIntro()">Skip ▸</button>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <a href="index.html" class="nav-logo"><img src="logo.png" alt="DrFly"><span>DRFLY</span></a>
+  <ul class="nav-links">
+    <li><a href="#games">Games</a></li>
+    <li><a href="#studio">Studio</a></li>
+    <li><a href="#beta">Beta</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#beta" class="nav-cta">Join Beta</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="grid-bg"></div>
+  <div class="hero-bg"></div>
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="hero-eyebrow">Independent Game Studio · Solo Dev</div>
+      <h1>Play <span class="ital">more.</span><br>Think <span class="stroke">deeper.</span></h1>
+      <p class="hero-sub">Infinite puzzles. One developer. Zero compromise. DrFly crafts mobile games designed for minds that never want to stop — clean, replayable, and built without bullshit.</p>
+      <div class="hero-ctas">
+        <a href="#games" class="btn btn-primary">Explore the catalog <span class="arrow">→</span></a>
+        <a href="#studio" class="btn btn-secondary">About the studio <span class="arrow">↓</span></a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="orbit-tag t1">● LIVE</div>
+      <div class="orbit-tag t2">7 GAMES</div>
+      <div class="orbit-tag t3">EST. ∞</div>
+      <div class="orbit-tag t4">SOLO DEV</div>
+      <div class="hero-logo-wrap"><img src="logo.png" alt="DrFly logo"></div>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker">
+  <div class="ticker-track">
+    <span>Tangram Infinity</span><span>Sudoku Infinity</span><span>Ball Contamination</span>
+    <span>Infinity Rush</span><span>CodeBreaker Infinity</span><span>PackIt Infinity</span>
+    <span>Deductia Infinity</span>
+    <span>Tangram Infinity</span><span>Sudoku Infinity</span><span>Ball Contamination</span>
+    <span>Infinity Rush</span><span>CodeBreaker Infinity</span><span>PackIt Infinity</span>
+    <span>Deductia Infinity</span>
+  </div>
+</div>
+
+<!-- GAMES -->
+<section class="section" id="games">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <div class="section-num">01 / CATALOG</div>
+      <h2 class="section-title">The <span class="ital">games.</span></h2>
+      <div class="section-meta">7 TITLES · 2 LIVE · 5 IN BETA</div>
+    </div>
+
+    <div class="games-grid">
+      <a href="games/tangram-infinity.html" class="game-card reveal">
+        <div class="game-imgwrap">
+          <img class="game-img" src="https://drfly-prog.github.io/screen-tangram.png" alt="Tangram Infinity">
+          <div class="game-overlay"></div>
+          <div class="game-status live">Live</div>
+          <div class="game-icon"><img src="https://drfly-prog.github.io/logo-tangram.png" alt=""></div>
+        </div>
+        <div class="game-body">
+          <div class="game-name">Tangram Infinity</div>
+          <div class="game-desc">Place tangram pieces to form perfect squares. Hundreds of combinations, infinite calm.</div>
+          <div class="game-cta">View game →</div>
+        </div>
+      </a>
+
+      <a href="games/sudoku-infinity.html" class="game-card reveal">
+        <div class="game-imgwrap">
+          <img class="game-img" src="https://drfly-prog.github.io/screen-sudoku.png" alt="Sudoku Infinity">
+          <div class="game-overlay"></div>
+          <div class="game-status live">Live</div>
+          <div class="game-icon"><img src="https://drfly-prog.github.io/logo-sudoku.png" alt=""></div>
+        </div>
+        <div class="game-body">
+          <div class="game-name">Sudoku Infinity</div>
+          <div class="game-desc">Classic Sudoku reimagined. No grid to fill — validate lines, columns and squares endlessly.</div>
+          <div class="game-cta">View game →</div>
+        </div>
+      </a>
+
+      <a href="games/ball-contamination.html" class="game-card reveal">
+        <div class="game-imgwrap">
+          <img class="game-img" src="https://drfly-prog.github.io/screen-ball.png" alt="Ball Contamination">
+          <div class="game-overlay"></div>
+          <div class="game-status beta">In testing</div>
+          <div class="game-icon"><img src="https://drfly-prog.github.io/logo-ball.png" alt=""></div>
+        </div>
+        <div class="game-body">
+          <div class="game-name">Ball Contamination</div>
+          <div class="game-desc">Physics puzzle game. Shoot the right ball to trigger a chain reaction and contaminate them all.</div>
+          <div class="game-cta">View game →</div>
+        </div>
+      </a>
+
+      <a href="games/infinity-rush.html" class="game-card reveal">
+        <div class="game-imgwrap">
+          <img class="game-img" src="https://drfly-prog.github.io/screen-rush.png" alt="Infinity Rush">
+          <div class="game-overlay"></div>
+          <div class="game-status beta">In testing</div>
+          <div class="game-icon"><img src="https://drfly-prog.github.io/logo-rush.png" alt=""></div>
+        </div>
+        <div class="game-body">
+          <div class="game-name">Infinity Rush</div>
+          <div class="game-desc">Test your reflexes with 4-button obstacle challenges. How high can you score?</div>
+          <div class="game-cta">View game →</div>
+        </div>
+      </a>
+
+      <a href="games/codebreaker-infinity.html" class="game-card reveal">
+        <div class="game-imgwrap">
+          <img class="game-img" src="https://drfly-prog.github.io/screen-codeb.png" alt="CodeBreaker Infinity">
+          <div class="game-overlay"></div>
+          <div class="game-status beta">In testing</div>
+          <div class="game-icon"><img src="https://drfly-prog.github.io/logo-codeb.png" alt=""></div>
+        </div>
+        <div class="game-body">
+          <div class="game-name">CodeBreaker Infinity</div>
+          <div class="game-desc">Crack the secret color code. Classic Mastermind, rebuilt for 2026. Free.</div>
+          <div class="game-cta">View game →</div>
+        </div>
+      </a>
+
+      <a href="games/packit-infinity.html" class="game-card reveal">
+        <div class="game-imgwrap">
+          <img class="game-img" src="https://drfly-prog.github.io/screen-packit.png" alt="PackIt Infinity">
+          <div class="game-overlay"></div>
+          <div class="game-status beta">In testing</div>
+          <div class="game-icon"><img src="https://drfly-prog.github.io/logo-packit.png" alt=""></div>
+        </div>
+        <div class="game-body">
+          <div class="game-name">PackIt Infinity</div>
+          <div class="game-desc">Fit every item. Fill every space. Satisfying packing puzzles. No ad spam.</div>
+          <div class="game-cta">View game →</div>
+        </div>
+      </a>
+
+      <a href="games/deductia-infinity.html" class="game-card reveal">
+        <div class="game-imgwrap">
+          <img class="game-img" src="https://drfly-prog.github.io/screen-dedu.png" alt="Deductia Infinity">
+          <div class="game-overlay"></div>
+          <div class="game-status beta">In testing</div>
+          <div class="game-icon"><img src="https://drfly-prog.github.io/logo-dedu.png" alt=""></div>
+        </div>
+        <div class="game-body">
+          <div class="game-name">Deductia Infinity</div>
+          <div class="game-desc">Logic grid puzzles with stories. Deduce, eliminate, solve. No ads mid-game.</div>
+          <div class="game-cta">View game →</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats">
+  <div class="stats-grid">
+    <div class="stat reveal"><div class="stat-num">7</div><div class="stat-label">Games shipped</div></div>
+    <div class="stat reveal"><div class="stat-num">2</div><div class="stat-label">Live on store</div></div>
+    <div class="stat reveal"><div class="stat-num">∞</div><div class="stat-label">Replayability</div></div>
+    <div class="stat reveal"><div class="stat-num">1</div><div class="stat-label">Solo developer</div></div>
+  </div>
+</section>
+
+<!-- STUDIO -->
+<section class="section" id="studio">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <div class="section-num">02 / STUDIO</div>
+      <h2 class="section-title">Built by one. <span class="ital">Played by many.</span></h2>
+      <div class="section-meta">PUZZLE-FIRST PHILOSOPHY</div>
+    </div>
+    <div class="manifesto">
+      <div class="manifesto-quote reveal">
+        DrFly is a <span class="hl">solo indie studio</span>. Every game is designed, coded and polished by a single developer — with care for simplicity, replayability and elegance. No publishers. No bloat. Just puzzles built for thinkers.
+      </div>
+      <div class="manifesto-pillars reveal">
+        <div class="pillar"><div class="pillar-icon">// 01</div><div class="pillar-title">Clean by design</div><div class="pillar-text">Minimal UI, zero clutter. Every element earns its place on screen.</div></div>
+        <div class="pillar"><div class="pillar-icon">// 02</div><div class="pillar-title">Endlessly replayable</div><div class="pillar-text">No story, no ending. Just mechanics that keep revealing new depths.</div></div>
+        <div class="pillar"><div class="pillar-icon">// 03</div><div class="pillar-title">Logic over luck</div><div class="pillar-text">Games designed for thinkers. Satisfaction from logic, not chance.</div></div>
+        <div class="pillar"><div class="pillar-icon">// 04</div><div class="pillar-title">No pay-to-win</div><div class="pillar-text">Fair monetization. Ads are optional, never imposed.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BETA -->
+<section class="section beta" id="beta">
+  <div class="section-inner">
+    <div class="beta-card reveal">
+      <div class="beta-eyebrow">// EARLY ACCESS · BETA TESTERS WANTED</div>
+      <h2 class="beta-title">Play it before <span class="ital">anyone else.</span></h2>
+      <p class="beta-text">Join the DrFly testing group — get early access to upcoming games, first look at updates, and a direct line to the developer. No NDAs. No filler. Just shape what comes next.</p>
+      <a href="https://groups.google.com/g/studio-drfly" class="btn btn-primary" target="_blank" rel="noopener">Join the beta group <span class="arrow">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" id="contact">
+  <div class="footer-mega">Say <span class="ital">hi.</span></div>
+  <div class="footer-grid">
+    <div class="footer-block">
+      <h4>// Direct line</h4>
+      <a href="mailto:drfly.prog@gmail.com" class="footer-mail">drfly.prog@gmail.com</a>
+      <p style="color:var(--ink-dim);font-size:.9rem;margin-top:1rem;line-height:1.6">For partnerships, press, feedback or just to say hi — reach out directly. The developer reads every email.</p>
+    </div>
+    <div class="footer-block">
+      <h4>// Channels</h4>
+      <a href="https://www.youtube.com/@DrFly-Studio" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://groups.google.com/g/studio-drfly" target="_blank" rel="noopener">Beta Group</a>
+      <a href="#">Instagram</a>
+      <a href="#">TikTok</a>
+    </div>
+    <div class="footer-block">
+      <h4>// Navigate</h4>
+      <a href="#games">Games</a>
+      <a href="#studio">Studio</a>
+      <a href="#beta">Beta</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 DRFLY GAME STUDIO · BUILT IN SOLITUDE</span>
+    <span>∞ · ALL RIGHTS RESERVED</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
