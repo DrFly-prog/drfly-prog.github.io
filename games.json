@@ -449,6 +449,57 @@
       "privacyPolicyDate": "April 01, 2026",
       "privacyPolicyHtml": "<h2>Overview</h2>\n<p>Infinity Labyrinth is a maze puzzle game developed by an independent creator. We are committed to protecting your privacy. This policy explains what data is collected, how it is used, and your rights regarding that data.</p>\n\n<h2>Data We Collect</h2>\n<p>The App itself does not collect any personal information. However, we use third-party services that may collect data:</p>\n<ul>\n  <li><strong>Google AdMob</strong> — used to display advertisements. AdMob may collect device identifiers, IP address, and usage data to serve relevant ads.</li>\n  <li><strong>Game progress</strong> — your completed levels and game state are stored locally on your device only using AsyncStorage. This data never leaves your device.</li>\n  <li><strong>Battle Royale mode</strong> — multiplayer session data (e.g. anonymized match results) may be processed temporarily to enable online gameplay. No personally identifiable information is stored on our servers.</li>\n</ul>\n\n<h2>Advertising</h2>\n<p>The App displays ads through Google AdMob, including interstitial and rewarded video ads. We request non-personalized ads where possible. For more information: <a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\">policies.google.com/technologies/partner-sites</a></p>\n\n<h2>Data Sharing</h2>\n<p>We do not sell, trade, or share your personal data with third parties, except as required by Google AdMob as described above.</p>\n\n<h2>Children's Privacy</h2>\n<p>The App is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us so we can delete it.</p>\n\n<h2>Data Retention</h2>\n<p>Local game data is stored on your device and can be cleared at any time by uninstalling the App. We do not retain any data on our own servers.</p>\n\n<h2>Your Rights</h2>\n<p>Depending on your location, you may have the right to access, delete or opt out of personalized advertising. On Android: Settings → Google → Ads. On iOS: Settings → Privacy → Tracking.</p>\n\n<h2>Changes to This Policy</h2>\n<p>We may update this Privacy Policy from time to time. Continued use of the App after changes constitutes acceptance of the new policy.</p>\n\n<h2>Contact</h2>\n<p><a href=\"mailto:drfly.prog@gmail.com\">drfly.prog@gmail.com</a></p>",
       "updatedAt": "2026-04-20T21:35:47.010Z"
+    },
+    {
+      "id": "essryn",
+      "name": "Essryn : The Mage's Path",
+      "enabled": true,
+      "order": 99,
+      "description": "Essryn: The Mage's Path is a magical management game. Channel elemental essences, transmute and fuse them, unlock cities, grow your talent tree and battle other mages for control of the realm.",
+      "status": "testing",
+      "statusLabel": "In testing",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.drfly.essryn",
+      "iconFile": "logo-ess.png",
+      "screenshotFile": "screen-ess.png",
+      "slug": "essryn",
+      "pageTitleStrong": "Essryn",
+      "pageTitleItal": "The Mage's Path.",
+      "tagline": "Channel essences. Conquer territories. Become the Archmage.",
+      "pageDescription": "Essryn: The Mage's Path is a magical management game. Channel elemental essences, grow a deep talent tree, and duel   other mages for control of the realm. Free.",
+      "tags": [
+        "Strategy",
+        "Magic",
+        "Management",
+        "Multiplayer",
+        "Free"
+      ],
+      "lead": "A magical management game where strategy and sorcery decide who rules the realm.",
+      "aboutParagraphs": [
+        "Awaken as a mage and bend the eight elemental essences to your will. Channel them across a hand-drawn world of cities and islands, transmute and fuse them into rarer forms, and grow an empire of magic at your own pace.",
+        "Shape your power through a sprawling Talent Constellation - invest points, respec freely, and specialise in production, alchemy or war. Then take your mastery online: duel other mages, raid their territories, and climb the  global leaderboard.",
+        "Your progress is saved to the cloud and follows you across devices. Playable in English, French and Spanish, free to play with optional rewarded ads."
+      ],
+      "features": [
+        {
+          "title": "Channel & Transmute",
+          "text": "Produce, refine and fuse eight elemental essences across a living world of cities to  build your magical economy."
+        },
+        {
+          "title": "Talent Constellation",
+          "text": "A deep, fully respec-able talent tree that specialises your mage in harvesting, alchemy, duels or conquest."
+        },
+        {
+          "title": "Mage PvP",
+          "text": "Challenge friends and rivals to essence duels, defend your territories, and rise through the global leaderboard."
+        },
+        {
+          "title": "Cloud-Saved & Free",
+          "text": "Play in EN/FR/ES with progress synced to the cloud — free to enjoy, with optional ads you control."
+        }
+      ],
+      "privacyPolicyDate": "June 2, 2026",
+      "privacyPolicyHtml": "<h2>Overview</h2>\n  <p>Essryn: The Mage's Path is developed by DrFly Game Studio (\"we\", \"us\"). This policy explains what data the game\n  handles. Essryn uses an account so your progress can be saved to the cloud, sync across devices and appear on\n  leaderboards.</p>\n\n  <h2>Data We Collect</h2>\n  <ul>\n    <li><strong>Account.</strong> Your email address, used to create and secure your account.</li>\n    <li><strong>Game progress.</strong> Your save data (essences, cities, talents, territories) stored in the\n  cloud.</li>\n    <li><strong>Public profile.</strong> Your chosen mage name, level and stats, shown on leaderboards and to\n  friends.</li>\n    <li><strong>Advertising &amp; diagnostics.</strong> Our advertising partner (Google AdMob) may process device\n  identifiers and usage data; we also collect anonymous crash and performance data.</li>\n  </ul>\n\n  <h2>How We Use Data</h2>\n  <ul>\n    <li>To save and restore your progress across devices.</li>\n    <li>To manage your account and provide support.</li>\n    <li>To display leaderboards and social features (friends, duels).</li>\n    <li>To show ads that keep the game free and to improve stability.</li>\n  </ul>\n\n  <h2>Advertising</h2>\n  <p>The game shows ads through Google AdMob, including optional rewarded ads. AdMob may process advertising identifiers\n  under Google's own privacy policy. Where required (e.g. in the EEA/UK), you will be asked for consent and may choose\n  non-personalized ads. You can reset or limit your advertising ID in your device settings.</p>\n\n  <h2>Hosting &amp; Cloud Save</h2>\n  <p>Account and save data are securely hosted through Supabase. Data is transmitted over encrypted connections and used\n  only to operate the game.</p>\n\n  <h2>Data Sharing</h2>\n  <p>We do not sell your data. It is shared only with our technical providers (hosting and advertising) to the extent\n  strictly necessary to run the game.</p>\n\n  <h2>Children's Privacy</h2>\n  <p>The game is intended for a general audience and is not directed at children under 13. We do not knowingly collect\n  personal information from children.</p>\n\n  <h2>Your Rights</h2>\n  <p>You may request access to, correction of, or deletion of your data. Deleting your account in-game (Settings →\n  Delete account) permanently erases your cloud save. You can also manage ad choices through your device's privacy\n  controls.</p>\n\n  <h2>Changes</h2>\n  <p>We may update this policy from time to time. Material changes will be reflected by updating the date above.</p>\n\n  <h2>Contact</h2>\n  <p>Questions about this policy? Email us at <a href=\"mailto:drfly.prog@gmail.com\">drfly.prog@gmail.com</a>.</p>",
+      "updatedAt": "2026-06-02T14:28:08.063Z"
     }
   ]
 }
