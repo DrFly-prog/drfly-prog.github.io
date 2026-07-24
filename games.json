@@ -500,6 +500,57 @@
       "privacyPolicyDate": "June 2, 2026",
       "privacyPolicyHtml": "<h2>Overview</h2>\n  <p>Essryn: The Mage's Path is developed by DrFly Game Studio (\"we\", \"us\"). This policy explains what data the game\n  handles. Essryn uses an account so your progress can be saved to the cloud, sync across devices and appear on\n  leaderboards.</p>\n\n  <h2>Data We Collect</h2>\n  <ul>\n    <li><strong>Account.</strong> Your email address, used to create and secure your account.</li>\n    <li><strong>Game progress.</strong> Your save data (essences, cities, talents, territories) stored in the\n  cloud.</li>\n    <li><strong>Public profile.</strong> Your chosen mage name, level and stats, shown on leaderboards and to\n  friends.</li>\n    <li><strong>Advertising &amp; diagnostics.</strong> Our advertising partner (Google AdMob) may process device\n  identifiers and usage data; we also collect anonymous crash and performance data.</li>\n  </ul>\n\n  <h2>How We Use Data</h2>\n  <ul>\n    <li>To save and restore your progress across devices.</li>\n    <li>To manage your account and provide support.</li>\n    <li>To display leaderboards and social features (friends, duels).</li>\n    <li>To show ads that keep the game free and to improve stability.</li>\n  </ul>\n\n  <h2>Advertising</h2>\n  <p>The game shows ads through Google AdMob, including optional rewarded ads. AdMob may process advertising identifiers\n  under Google's own privacy policy. Where required (e.g. in the EEA/UK), you will be asked for consent and may choose\n  non-personalized ads. You can reset or limit your advertising ID in your device settings.</p>\n\n  <h2>Hosting &amp; Cloud Save</h2>\n  <p>Account and save data are securely hosted through Supabase. Data is transmitted over encrypted connections and used\n  only to operate the game.</p>\n\n  <h2>Data Sharing</h2>\n  <p>We do not sell your data. It is shared only with our technical providers (hosting and advertising) to the extent\n  strictly necessary to run the game.</p>\n\n  <h2>Children's Privacy</h2>\n  <p>The game is intended for a general audience and is not directed at children under 13. We do not knowingly collect\n  personal information from children.</p>\n\n  <h2>Your Rights</h2>\n  <p>You may request access to, correction of, or deletion of your data. Deleting your account in-game (Settings →\n  Delete account) permanently erases your cloud save. You can also manage ad choices through your device's privacy\n  controls.</p>\n\n  <h2>Changes</h2>\n  <p>We may update this policy from time to time. Material changes will be reflected by updating the date above.</p>\n\n  <h2>Contact</h2>\n  <p>Questions about this policy? Email us at <a href=\"mailto:drfly.prog@gmail.com\">drfly.prog@gmail.com</a>.</p>",
       "updatedAt": "2026-06-02T14:28:08.063Z"
+    },
+    {
+      "id": "polilex",
+      "name": "Polilex",
+      "enabled": true,
+      "order": 7,
+      "description": "Welcome to Polilex. A word appears - you guess whether America leans left or right on it, then the community verdict is revealed.\nThousands of words to call, from kombucha to pickup trucks. Vote blind, build your accuracy score, and see which words split the country down the middle.",
+      "status": "testing",
+      "statusLabel": "In testing step",
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.drfly.polilex",
+      "iconFile": "Logo-polilex.png",
+      "screenshotFile": "screen-polilex.png",
+      "slug": "polilex",
+      "pageTitleStrong": "Polilex",
+      "pageTitleItal": "Left or Right?",
+      "tagline": "Read the word. Call the side. See what America said.",
+      "pageDescription": "Guess whether a word leans left or right, then see how America really voted. A blind-vote political word game with thousands of   words. Free on Android.",
+      "tags": [
+        "Trivia",
+        "Political",
+        "Word Game",
+        "Free",
+        "Mobile"
+      ],
+      "lead": "A blind-vote word game for anyone who thinks they can read America.",
+      "aboutParagraphs": [
+        "A word appears - basketball, kombucha, pickup truck — and you call it: does America read it as Democrat or Republican? You commit before you see a single number. Then the verdict lands, and the screen splits exactly where the country did.",
+        "Voting blind isn't a gimmick. If you saw the percentage first, your vote would just agree with it - and a score everyone can see is a score anyone can organize against. Committing first keeps every opinion independent and the numbers honest.",
+        "Thousands of everyday words are already in the game, from food and trucks to jobs, holidays and public figures. Missing one? Search for it and cast the first vote yourself. And when the country genuinely can't agree, you get a Split - which doesn't count against  your accuracy, because there's no right answer when America doesn't have one."
+      ],
+      "features": [
+        {
+          "title": "Blind Voting",
+          "text": "No score, no hints, no crowd to follow. You call it first - then the country answers."
+        },
+        {
+          "title": "The Split Reveal",
+          "text": "The verdict isn't just a number. The whole screen divides exactly where America divided."
+        },
+        {
+          "title": "Your Accuracy Score",
+          "text": "Every call gets graded. Find out whether you really read the room, or only think you do."
+        },
+        {
+          "title": "Any Word You Want",
+          "text": "Thousands already in the game. Missing one? Add it and be the first person ever to vote on it."
+        }
+      ],
+      "privacyPolicyDate": "July 25, 2026",
+      "privacyPolicyHtml": "<h2>Overview</h2>\n  <p>Polilex is a word-perception game. You can play it without creating an account, signing in, or giving us your name, email address,\n  or any other personal detail. This policy explains the limited data the app does handle, why, and what control you have over it.</p>\n\n  <h2>Data We Collect</h2>\n  <ul>\n    <li><strong>Your votes.</strong> When you vote on a word, we store the word, the side you picked, the country setting, and the time\n  of the vote.</li>\n    <li><strong>A random device token.</strong> The first time you open Polilex, the app generates a random identifier and stores it on\n  your device. It is sent with your votes so the same device is not counted twice on the same word. It is not derived from your\n  hardware, your phone number, or any account, and it tells us nothing about who you are.</li>\n    <li><strong>A hashed IP address.</strong> Our server converts the IP address of each request into an irreversible salted hash. We\n  use it solely to enforce rate limits and detect coordinated abuse. We do not store raw IP addresses and cannot recover them from the\n  hash.</li>\n    <li><strong>Words and reports you submit.</strong> If you add a word or report one, we store the text you entered so it can be\n  reviewed by a moderator.</li>\n  </ul>\n\n  <h2>Data We Do Not Collect</h2>\n  <p>We do not collect your name, email address, phone number, contacts, photos, precise location, or device fingerprint. We do not ask\n  you to create an account, and there is nothing in the app that identifies you personally.</p>\n\n  <h2>How We Use Data</h2>\n  <p>Votes are aggregated into the community percentages the game shows you. Everything else exists to keep the game working and\n  honest: preventing double votes, limiting abuse, and moderating submitted content. We do not sell your data, and we do not share it\n  with anyone except the service providers listed below.</p>\n\n  <h2>Data Stored on Your Device</h2>\n  <p>Polilex keeps some information locally, on your phone only, and never uploads it: which words you have already voted on, your\n  personal accuracy score, and how many free words you have left before the next ad. Clearing the app's data or uninstalling Polilex\n  erases all of it permanently, and a new random token is generated the next time you play.</p>\n\n  <h2>Advertising</h2>\n  <p>Polilex is free and funded by ads served through Google AdMob. The app requests non-personalized ads, which means Google is asked\n  not to use profiling data to select what you see. Google may still process limited information such as device type and a resettable\n  advertising identifier in order to deliver ads, cap how often you see them, and detect fraud. This processing is governed by Google's\n  own privacy policy, available at <a href=\"https://policies.google.com/privacy\">policies.google.com/privacy</a>. You can reset or\n  delete your advertising identifier at any time in your device settings.</p>\n\n  <h2>Service Providers</h2>\n  <p>Our game data is hosted by Supabase, which stores the words and the aggregated votes on our behalf. Ads are delivered by Google\n  AdMob. These providers process data only to supply their service to us.</p>\n\n  <h2>Content You Submit</h2>\n  <p>Words added by players are reviewed before they become visible to anyone else. We remove submissions that target private\n  individuals, promote hatred, or otherwise breach our rules. Please do not enter personal information into the word field — anything\n  you type there may be read by a moderator and, once approved, shown publicly.</p>\n\n  <h2>Data Retention</h2>\n  <p>Votes are kept for as long as the game runs, because they are what produces the community score. They are stored without any\n  personal identifier attached, so an individual vote cannot be traced back to a person. Hashed IP addresses are used only for\n  short-term abuse detection and are purged on a rolling basis.</p>\n\n  <h2>Your Rights</h2>\n  <p>Depending on where you live, you may have the right to access, correct, or delete data relating to you, or to object to its\n  processing. Because Polilex holds no information capable of identifying you, the fastest way to sever any link between you and your\n  past activity is to clear the app's data or uninstall it — the random token disappears with it. If you have a specific request,\n  contact us at the address below and we will do our best to help.</p>\n\n  <h2>Children's Privacy</h2>\n  <p>Polilex deals with political topics and is not directed at children. The app is not intended for anyone under 13, and we do not\n  knowingly collect information from children. If you believe a child has used the app and you would like us to look into it, please\n  get in touch.</p>\n\n  <h2>What Polilex Is Not</h2>\n  <p>The percentages in the game measure how players perceive a word, not how anyone actually votes or thinks. Polilex is a game, not a\n  poll, not a survey, and not a measuring instrument. Nothing in it should be read as data about real political opinion.</p>\n\n  <h2>Changes to This Policy</h2>\n  <p>If we change how the app handles data, we will update this page and revise the date shown at the top. Continuing to use Polilex\n  after a change means you accept the updated policy.</p>\n\n  <h2>Contact</h2>\n  <p>Questions about this policy or about your data? Write to us at <a href=\"mailto:contact@drfly.games\">contact@drfly.games</a>.</p>",
+      "updatedAt": "2026-07-24T22:13:49.319Z"
     }
   ]
 }
